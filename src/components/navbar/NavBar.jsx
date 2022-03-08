@@ -12,7 +12,7 @@ const Navbar = () =>{
         <div className="gpt3__navabr">
             <div className="gpt3__navbar-links">
                 <div className="gpt3__navbar-links_logo">
-                    <img src={ logo } alt="Logo" />
+                    <img src="" alt="Logo" />
                 </div>    
             </div>
         </div>
