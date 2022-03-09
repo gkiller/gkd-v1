@@ -9,11 +9,18 @@ const Navbar = () =>{
     return(
 
         //  Parent component
-        <div className="gpt3__navabr">
-            <div className="gpt3__navbar-links">
-                <div className="gpt3__navbar-links_logo">
-                    <img src={ logo } alt="Logo" width="60" />
+        <div className="gkd__navbar">
+            <div className="gkd__navbar-links">
+                <div className="gkd__navbar-links_logo">
+                    <img src={ logo } alt="Logo" />
                 </div>    
+                <div className="gkd__navbar-links_container">
+                    <p><a href="#home">Home</a></p>
+                    <p><a href="#wgkd">What is GKD?</a></p>
+                    <p><a href="#possibility">Open AI</a></p>
+                    <p><a href="#features">Case Studies</a></p>
+                    <p><a href="#blog">Library</a></p>
+                </div>
             </div>
         </div>
     )

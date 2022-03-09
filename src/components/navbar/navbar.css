@@ -1,0 +1,48 @@
+.gkd__navbar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.gkd__navbar-links{
+
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.gkd__navbar-links_logo img{
+
+    width: 48px;
+    height: 48px;
+}
+
+.gkd__navbar-links_container{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.gkd__navbar-sign{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gkd__navbar-links_container p,
+.gkd__navbar-sign p,
+.gkd__navbar-menu_container p{
+
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1.00rem;
+    line-height: 25;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
