@@ -72,7 +72,7 @@
 
 
 .gkd__navbar-menu{
-    /* Modified to absolute to address right positioning.  */
+    
     margin-left: 1rem;
     display: none;
     position: relative;
