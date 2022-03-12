@@ -3,16 +3,23 @@ import './feature.css';
 
 
 //  Functional component
-const Feature = () =>{
+//  Props { ... } are passed to function from WGKD component
+const Feature = ( { title, text } ) =>{
 
     return(
 
-        //  Parent component
-        <div>
-            Feature
+        <div className="gkd__features-container__feature">
+            <div className="gkd__features-container__feature-title">
+                <div></div>
+                <h1>{ title }</h1>
+            </div>
+
+            <div className="gkd__features-container__feature-text">
+                <p>{ text }</p>
+            </div>
+
         </div>
     )
-
 }
 
 
