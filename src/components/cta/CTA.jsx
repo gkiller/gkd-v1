@@ -9,7 +9,7 @@ const CTA = () =>{
 
         //  Parent component
         <div>
-            CTA
+            
         </div>
     )
 
