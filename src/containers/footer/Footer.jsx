@@ -7,8 +7,7 @@ const Footer = () =>{
 
     return(
 
-        //  Parent component
-        <div>
+        <div className="gkd__footer">
             Footer
         </div>
     )
